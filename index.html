@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сюрприз-поздравление</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="start-screen">
+        <div class="animation"></div>
+        <h1>🎧 Подключи колонки или наушники</h1>
+        <p>🔊 Это важно для максимального эффекта</p>
+        <button id="start-button">🎵 Я готов!</button>
+    </div>
+
+    <div id="player-screen" style="display: none;">
+        <canvas id="visualizer"></canvas>
+        <audio id="audio" src="track.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
